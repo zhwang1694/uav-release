@@ -409,7 +409,7 @@ process[camera_to_mavros-5]: started with pid [4293]
 
 **可能的错误列表：**  
 * Onboard Lost
-><font color=red>[ERROR] [1599642267.249704048]: FCU: Onboard controller lost</font>  
+> <font color=red>[ERROR] [1599642267.249704048]: FCU: Onboard controller lost</font>  
  [ INFO] [1599642267.299322032]: FCU: Onboard controller regained
 
 该错误会自动修正，无需处理
