@@ -1,8 +1,6 @@
-# EVA系列机型使用手册
+ # 单t265机型及使用说明
 
- ## 单t265机型及使用说明
-
- ### 1、启动相机及连接px4
+ ## 1、启动相机及连接px4
 
 ```
 roslaunch vision_to_mavros t265_all_nodes.launch
@@ -416,7 +414,7 @@ process[camera_to_mavros-5]: started with pid [4293]
 
 该错误会自动修正，无需处理
 
-### 2、输入如下命令查看所有开启节点：
+## 2、输入如下命令查看所有开启节点：
 
 ```
 rostopic list
@@ -572,7 +570,6 @@ pose:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    w: -0.706998503031  
 
 飞机的xyz坐标系朝向如下：
-
 
 >| z&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   / y  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   /  
