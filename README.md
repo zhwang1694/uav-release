@@ -11,6 +11,31 @@
  
  * ### [多机通信与坐标统一](https://github.com/BIT-zhwang/uav-release/blob/master/多机通信与坐标统一.md)
 
+说明:
+一般的飞行流程为：
+1. 启动相机
+ - 单相机机型[参考](https://github.com/BIT-zhwang/uav-release/blob/master/t265.md)
+ - 双相机机型[参考](https://github.com/BIT-zhwang/uav-release/blob/master/t265+d435.md)
+2. 开启建图
+ [参考](https://github.com/BIT-zhwang/uav-release/blob/master/2d建图.md)
+3. 校正坐标偏差与位姿交换
+ [参考](https://github.com/BIT-zhwang/uav-release/blob/master/多机通信与坐标统一.md)
+4. 检查状态机，设定各飞机航线
+ [参考](https://github.com/BIT-zhwang/uav-release/blob/master/状态机.md)
+5. 起飞
+ [参考](https://github.com/BIT-zhwang/uav-release/blob/master/状态机.md)
+
+典型的控制命令顺序(以领航机为例):
+```
+roslaunch realsense2_camera rs_d400_and_t265.launch #启动相机
+roslaunch vision_to_mavros t265_go.launch # 连接px4
+roslaunch occupancy occupancy_live_rviz.launch # 建图
+cd elf # 进入文件夹
+python uavx.py # 开启坐标校正
+python smatch.py # 开启状态机 
+rosrun px4code takeoff # 起飞
+```
+
 ## 调试与控制
 
 飞机的控制有如下两种方法：
@@ -19,3 +44,7 @@
 
 建议使用局域网下的远程连接方法，**图传设备与无线键鼠存在一定的信号干扰**。
 推荐使用NoMachine进行远程连接，飞机内部已安装Nomachine相应版本，可以在[release](https://github.com/BIT-zhwang/uav-release/releases/tag/nomachine_packages)中下载对应平台的安装包。
+
+## 地面站的设置与参数调节
+
+在[release](https://github.com/BIT-zhwang/uav-release/releases/tag/QGroundControl)中下载地面站控制安装包。
