@@ -1,14 +1,17 @@
 # EVA系列机型使用手册
 
- * ## 单相机(t265)机型[使用说明](https://github.com/BIT-zhwang/uav-release/blob/master/t265.md)
+## 目录
+ * ### 单相机(t265)机型[使用说明](https://github.com/BIT-zhwang/uav-release/blob/master/t265.md)
 
- * ## t265与d435多相机机型[使用说明](https://github.com/BIT-zhwang/uav-release/blob/master/t265+d435.md)
+ * ### t265与d435多相机机型[使用说明](https://github.com/BIT-zhwang/uav-release/blob/master/t265+d435.md)
 
- * ## [状态机与航点](https://github.com/BIT-zhwang/uav-release/blob/master/状态机.md)
+ * ### [状态机与航点](https://github.com/BIT-zhwang/uav-release/blob/master/状态机.md)
 
- * ## [建图](https://github.com/BIT-zhwang/uav-release/blob/master/2d建图.md)
+ * ### [建图](https://github.com/BIT-zhwang/uav-release/blob/master/2d建图.md)
  
- * ## [多机通信与坐标统一](https://github.com/BIT-zhwang/uav-release/blob/master/多机通信与坐标统一.md)
+ * ### [多机通信与坐标统一](https://github.com/BIT-zhwang/uav-release/blob/master/多机通信与坐标统一.md)
+
+## 调试与控制
 
 飞机的控制有如下两种方法：
 * 配对好的图传
