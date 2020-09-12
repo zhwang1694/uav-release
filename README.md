@@ -43,7 +43,8 @@ rosrun px4code takeoff # 起飞
 * 局域网远程连接
 
 建议使用局域网下的远程连接方法，**图传设备与无线键鼠存在一定的信号干扰**。
-推荐使用NoMachine进行远程连接，飞机内部已安装Nomachine相应版本，可以在[release](https://github.com/BIT-zhwang/uav-release/releases/tag/nomachine_packages)中下载对应平台的安装包。
+推荐使用NoMachine进行远程连接，飞机内部已安装Nomachine相应版本，可以在[release](https://github.com/BIT-zhwang/uav-release/releases/tag/nomachine_packages)中下载对应平台的安装包。  
+在局域网的选择上，2.4GHz信号覆盖范围广，传输速度差；5GHz信号覆盖范围有限，但传输速率高。根据情况选择合适的频率通道。
 
 ## 地面站的设置与参数调节
 
