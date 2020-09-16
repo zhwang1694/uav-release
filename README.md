@@ -49,3 +49,10 @@ rosrun px4code takeoff # 起飞
 ## 地面站的设置与参数调节
 
 在[release](https://github.com/BIT-zhwang/uav-release/releases/tag/QGroundControl)中下载地面站控制安装包。
+
+## 反馈
+
+当你在使用过程中发现问题或未知的#error#时，欢迎在issues中提问，我们会尽快为您解决相关问题并推送。
+
+ [参考](https://github.com/BIT-zhwang/uav-release/blob/master/状态机.md)
+ [参考](https://github.com/BIT-zhwang/uav-release/blob/master/状态机.md)
