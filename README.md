@@ -54,5 +54,4 @@ rosrun px4code takeoff # 起飞
 
 当你在使用过程中发现问题或未知的#error#时，欢迎在issues中提问，我们会尽快为您解决相关问题并推送。
 
- [参考](https://github.com/BIT-zhwang/uav-release/blob/master/状态机.md)
- [参考](https://github.com/BIT-zhwang/uav-release/blob/master/状态机.md)
+
